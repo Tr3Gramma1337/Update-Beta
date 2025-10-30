@@ -70,7 +70,6 @@ function checkForUpdates(force)
 
     local versionUrl =
         string.format(
-        --"https://github.com/Tr3Gramma1337/Acs"
         "https://raw.githubusercontent.com/%s/%s/main/version.json?t=%s",
         USERNAME_GH,
         REPOSITORY_GH,
@@ -3130,4 +3129,5 @@ function imgui.TextQuestion(text)
     end
 
 end
+
 
