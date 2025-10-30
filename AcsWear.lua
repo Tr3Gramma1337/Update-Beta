@@ -23,7 +23,7 @@ local sampev = require "lib.samp.events"
 local inicfg = require "inicfg"
 
 local USERNAME_GH = "Tr3Gramma1337"
-local REPOSITORY_GH = "Acs"
+local REPOSITORY_GH = "Update-Beta"
 local updateCheck = false
 local updateAvailable = false
 local latestVersion = ""
@@ -3130,3 +3130,4 @@ function imgui.TextQuestion(text)
     end
 
 end
+
